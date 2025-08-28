@@ -1,16 +1,34 @@
-# Портфолио Пентестера
+   ██████╗████████╗███████╗       ██     ██  █████╗ ██    ██ 
+  ██╔════╝╚══██╔══╝██╔════╝       ██     ██ ██╔══██╗ ██  ██  
+  ██║        ██║   █████╗         ██  █  ██ ███████║  ████   
+  ██║        ██║   ██╔══╝         ██ ████ ██ ██╔══██║   ██    
+  ╚██████╗   ██║   ███████╗        ███  ███  ██║  ██║   ██    
+   ╚═════╝   ╚═╝   ╚══════╝         ╚═╝  ╚═╝  ╚═╝  ╚═╝   ╚═╝  
+                        CTF Way
 
-Мой публичный портфолио с CTF write-ups, лабораторными отчётами и методическими материалами.
+# 🕶️ CTF Portfolio
 
-## CTF Write-Ups:
-- [HTB: Machine_Name](./HTB/Machine_Name.md)
-- [VulnHub: Machine_Name](./VulnHub/Machine_Name.md)
-- [pwn.college: Challenge_Name](./pwn.college/Challenge_Name.md)
 
-## Методические материалы:
-- [Атаки на Active Directory](./Active-Directory-Attacks.md)
-- [Записки по веб-пентесту](./Web-Pentest-Notes.md)
+> _“Hack the Planet. Capture the Flag. Leave no shell unpwned.”_
 
-## Автоматизация:
-- [Инструменты и скрипты](./Tools-Automation.md)
+---
 
+## 📂 Repository Structure
+
+```bash
+CTF-Portfolio/
+├── writeups/
+│   ├── HTB/
+│   │   ├── Machine-Alpha (Linux, Medium, PE via misconfigs)
+│   │   └── ...
+│   ├── THM/
+│   │   ├── Draggle (WP RCE → PE via world-writable cron)
+│   │   └── ...
+│   └── CTFs/
+│       └── ...
+├── scripts/
+│   ├── enum/      # Recon & enumeration tools
+│   ├── exploit/   # Exploits & PoCs
+│   └── post/      # Post-exploitation & persistence
+├── loot/          # Hashes, creds, configs, trophies
+└── notes/         # Quick notes & one-liners
