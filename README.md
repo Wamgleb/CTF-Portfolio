@@ -17,22 +17,24 @@
 
 ---
 
+🌐 Profiles
+
+![THM Image Badge](https://tryhackme-badges.s3.amazonaws.com/0x0x0wam.png)
+
 ## 📂 Repository Structure
 
 ```bash
 CTF-Portfolio/
-├── writeups/
-│   ├── HTB/
-│   │   ├── Machine-Alpha (Linux, Medium, PE via misconfigs)
+├── HTB/
+│   ├── Machine-Alpha (Linux, Medium, PE via misconfigs)
 │   │   └── ...
-│   ├── THM/
-│   │   ├── Draggle (WP RCE → PE via world-writable cron)
+│   THM/
+│   ├── Draggle (WP RCE → PE via world-writable cron)
 │   │   └── ...
-│   └── CTFs/
-│       └── ...
+│   CTFs/
+│   └── ...
 ├── scripts/
 │   ├── enum/      # Recon & enumeration tools
 │   ├── exploit/   # Exploits & PoCs
 │   └── post/      # Post-exploitation & persistence
-├── loot/          # Hashes, creds, configs, trophies
 └── notes/         # Quick notes & one-liners
