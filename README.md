@@ -10,14 +10,14 @@
                         CTF Way
 ```
 
-# 🕶️ CTF Portfolio
+## 🕶️ CTF Portfolio
 
 
 > _“Hack the Planet. Capture the Flag. Leave no shell unpwned.”_
 
 ---
 
-🌐 Profiles
+## 🌐 Profiles
 
 ![THM Image Badge](https://tryhackme-badges.s3.amazonaws.com/0x0x0wam.png)
 
