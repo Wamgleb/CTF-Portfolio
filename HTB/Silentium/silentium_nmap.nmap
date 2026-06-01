@@ -1,0 +1,11 @@
+# Nmap 7.94SVN scan initiated Mon Jun  1 11:18:57 2026 as: nmap -sV -Pn -p- -oA CTF-Portfolio/HTB/Silentium/silentium_nmap 10.129.12.95
+Nmap scan report for silentium.htb (10.129.12.95)
+Host is up (0.12s latency).
+Not shown: 65533 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 9.6p1 Ubuntu 3ubuntu13.15 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    nginx 1.24.0 (Ubuntu)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jun  1 11:21:19 2026 -- 1 IP address (1 host up) scanned in 142.02 seconds
